@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.border-form{
+ border: 1.7px solid !important;
+ border-radius: 5px;
+ color: #068484
+}
+
+#root button, 
+ .btn {
+  color: #fff;
+  background-color: #068484;
+  border: 1.8px solid #068484;
+  font-weight: 600;
+  border-radius: 0;
+  text-transform: capitalize;
+}
+
+#root button:hover,
+ .btn:hover {
+  background-color: transparent;
+  color: #282828;
+}
+.form-control{
+  border: 1.4px solid #068484 !important
+}
